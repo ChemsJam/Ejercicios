@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+  <title>22_1076cDisIntT3Ejercicio6OntiverosJohan</title>
+  <meta name="description" content="Sistemas computacionales Diseño Interfaz">
+  <meta name="keywords" content="Bootstrap">
+  <meta name="author" content="Ontiveros Johán, Sistemas">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilosPrincipal.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/estilos1.css">  
+
+  <style>
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    .media-body {
+      color: blue;
+    }
+
+    .mymediabody {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>22_1076cDisIntT3Ejercicio6OntiverosJohan</h1>
+      <ul class="topnav">
+        <li><a href="22_1076cDisIntT3Ejercicio1OntiverosJohan.html">-1-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio2OntiverosJohan.html">-2-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio3OntiverosJohan.html">-3-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio4OntiverosJohan.html">-4-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio5OntiverosJohan.html">-5-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio6OntiverosJohan.html">-6-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio7OntiverosJohan.html">-7-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio8OntiverosJohan.html">-8-</a></li>
+        <li><a href="22_1076cDisIntT3Ejercicio9OntiverosJohan.html">-9-</a></li>
+
+      </ul>
+    </div>
+    <div id="content">
+      <div id="section">
+        
+        <h1>21_1076dDisIntT3Ejercicio9</h1>
+  <div class="container">
+    <h2>How To Create a Carousel</h2>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel1.jpg" alt="carrusel 1" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel2.jpg" alt="carrusel 2" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel3.jpg" alt="carrusel 3" width="1100" height="500">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <h2>Add Captions to Slides</h2>
+    <div id="demo2" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo2" data-slide-to="0" class="active"></li>
+        <li data-target="#demo2" data-slide-to="1"></li>
+        <li data-target="#demo2" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel1.jpg" alt="carrusel" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>5 Jornada</h3>
+            <p>We had such a great time in Systems!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel2.jpg" alt="Chicago" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>6 Jornada</h3>
+            <p>Thank you, ITSCH!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel3.jpg" alt="New York" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>7 Jornada</h3>
+            <p>We love Code!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo2" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <h1>Media Objects</h1>
+  <div class="container mt-3">
+    <h2>Media Object</h2>
+    <p>Create a media object with the .media and .media-body classes:</p>
+    <div class="media border p-3">
+      <img src="img/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+      <div class="media-body mymediabody">
+        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Nested Media Objects</h2>
+    <p>Media objects can also be nested (a media object inside a media object):</p><br>
+    <div class="media border p-3">
+      <img src="img/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+      <div class="media-body">
+        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <div class="media p-3">
+          <img src="img/img_avatar2.png" alt="Jane Doe" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+          <div class="media-body">
+            <h4>Jane Doe <small><i>Posted on February 20 2016</i></small></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Right-Aligned Media Image</h2>
+    <p>To right-align the media image, add the image after the .media-body container:</p>
+    <div class="media border p-3">
+      <div class="media-body">
+        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+      <img src="img/img_avatar3.png" alt="John Doe" class="ml-3 mt-3 rounded-circle" style="width:60px;">
+    </div>
+  </div>
+
+  <div class="container mt-3">
+    <h2>Media Object</h2>
+    <p>Place the media object to the top, middle or at the bottom with the flex utilities, align-self-* classes:</p><br>
+    <!-- Media top -->
+    <div class="media">
+      <img src="img/img_avatar1.png" class="align-self-start mr-3" style="width:60px">
+      <div class="media-body">
+        <h4>Media Top</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+    </div>
+
+    <!-- Media middle -->
+    <div class="media mt-3">
+      <img src="img/img_avatar1.png" class="align-self-center mr-3" style="width:60px">
+      <div class="media-body">
+        <h4>Media Middle</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+    </div>
+
+    <!-- Media bottom -->
+    <div class="media mt-3">
+      <img src="img/img_avatar1.png" class="align-self-end mr-3" style="width:60px">
+      <div class="media-body">
+        <h4>Media Bottom</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <h1>Example</h1>
+  <div class="container mt-3">
+    <h2>Name 1 student</h2>
+    <p>Create a media object with the .media and .media-body classes:</p>
+    <div class="media border p-3">
+      <img src="img/img_avatar3.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+      <div class="media-body mymediabody">
+        <h4>John Doe <small><i>Posted on February 19, 2016</i></small></h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Flower theme 1</h2>
+    <div id="demo2" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo2" data-slide-to="0" class="active"></li>
+        <li data-target="#demo2" data-slide-to="1"></li>
+        <li data-target="#demo2" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel1.jpg" alt="carrusel" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>5 Jornada</h3>
+            <p>We had such a great time in Systems!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel2.jpg" alt="Chicago" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>6 Jornada</h3>
+            <p>Thank you, ITSCH!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel3.jpg" alt="New York" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>7 Jornada</h3>
+            <p>We love Code!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo2" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <h2>Flower theme 2</h2>
+    <div id="demo2" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo2" data-slide-to="0" class="active"></li>
+        <li data-target="#demo2" data-slide-to="1"></li>
+        <li data-target="#demo2" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel1.jpg" alt="carrusel" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>5 Jornada</h3>
+            <p>We had such a great time in Systems!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel2.jpg" alt="Chicago" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>6 Jornada</h3>
+            <p>Thank you, ITSCH!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel3.jpg" alt="New York" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>7 Jornada</h3>
+            <p>We love Code!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo2" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    <h2>Flower theme 3</h2>
+    <div id="demo2" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo2" data-slide-to="0" class="active"></li>
+        <li data-target="#demo2" data-slide-to="1"></li>
+        <li data-target="#demo2" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carrusel1.jpg" alt="carrusel" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>5 Jornada</h3>
+            <p>We had such a great time in Systems!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel2.jpg" alt="Chicago" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>6 Jornada</h3>
+            <p>Thank you, ITSCH!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/carrusel3.jpg" alt="New York" width="1100" height="500">
+          <div class="carousel-caption">
+            <h3>7 Jornada</h3>
+            <p>We love Code!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo2" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+      <div id="footer">
+        <h2>Instituto Tecnológico Superior de Ciudad Hidalgo</h2>
+        <p><b>Semestre </b>Febrero Junio 2022</p>
+        <p><b>Materia </b>Diseño de Interfaz</p>
+        <p><b>Grupo</b> 076CA</p>
+        <p><b>Profesor </b>Erik Augusto Ramirez Vargas</p>
+        <p><b>Alumno </b>Johán Alejandro Ontiveros Alfaro</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="libs/jquery/3.4.0/jquery.min.js"></script>
+
+<script src="libs/popper/1.16.0/umd/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
+
+
+
+
+
+
